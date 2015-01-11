@@ -99,6 +99,14 @@ gulp.task('wiredep', function () {
     .pipe(gulp.dest('app'));
 });
 
+var deploy = require('gulp-gh-pages');
+
+gulp.task('deploy', function () {
+  return gulp.src('./dist/**/*')
+    .pipe(deploy());
+});
+
+
 gulp.task('watch', ['connect'], function () {
   $.livereload.listen();
 
