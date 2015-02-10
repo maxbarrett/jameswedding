@@ -1,2 +1,0 @@
-# jameswedding
-Wedding website
