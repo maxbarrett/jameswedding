@@ -1,0 +1,35 @@
+@media only screen and (max-width:520px) { 
+	body { min-width:320px; padding-top:20px; }
+
+	.info img,
+	.info .words,
+	.imgs img,
+	.map,
+	.bkgr,
+	p,
+	footer .tab,
+	.block { width: 100%; float:none; margin:0; padding:0; height:auto; box-sizing:border-box; }
+
+	h1,
+	.bkgr,
+	.block { padding: 0; margin:0 20px 20px; width:auto; }
+	.accom { background:none; min-height:0; }
+	.couple { padding:20px 10px 0 10px; }
+	.imgs img { margin-bottom:5px; }
+	.info img { margin-bottom:10px; }
+
+	.words h2,
+	.bkgr h2,
+	.accom h2 { font-size:20px; padding:0; background:none; margin:0; letter-spacing:2px; }
+	.couple h2 { font-size:16px; letter-spacing:7px; }
+
+	.bkgr p,
+	.words p,
+	footer p { padding:0; font-size:14px; line-height:24px; max-width:none; background:none; letter-spacing:0; float:none; display:block; margin:0 0 10px; }
+	
+	footer { padding-top:30px; }
+	footer .tab {margin-bottom:30px; border-bottom: 1px dashed #464646; padding-bottom:20px; }
+	footer .tab:last-of-type { border-bottom:none; margin-bottom:0; padding-bottom:10px; }
+	footer h3 { text-transform: uppercase; letter-spacing:2px; margin:0 0 10px; } 
+
+}
