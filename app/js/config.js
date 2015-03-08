@@ -11,5 +11,4 @@ require.config({
 
 require(['views/main', 'jquery'], function(main, jquery){
 	console.log('I am config.js');
-	console.log(jquery);
 });
