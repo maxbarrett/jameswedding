@@ -1,0 +1,3 @@
+define("plugins/mod",[],function(){"use strict";return{init:function(){console.log("mod.js called & $.ajax = "+typeof $.ajax)}}}),require(["jquery","plugins/mod"],function(e,i){"use strict";i.init(),console.log("main.js called & $.ajax = "+typeof $.ajax)}),define("views/main",function(){}),require.config({baseUrl:"./js/",paths:{jquery:["https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min","../../bower_components/jquery/dist/jquery.min"]}}),require(["jquery","views/main"],function(){console.log("config.js called & $.ajax = "+typeof $.ajax)}),define("config",function(){});
+//# sourceMappingURL=config.js
+//# sourceMappingURL=config.js.map
