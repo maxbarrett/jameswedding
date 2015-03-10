@@ -1,14 +1,13 @@
 require.config({
-	// make components more sensible
-	// expose jquery
 	baseUrl: './js/',
 
 	paths: {
-		"jquery": ["http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min", "libs/jquery/dist/jquery"]
+		// jquery: default cdn with local fallback
+		jquery: ['https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min', '../../bower_components/jquery/dist/jquery.min']
 	}
 });
 
 
-require(['views/main', '../../bower_components/jquery/dist/jquery.min'], function(main, jquery){
+require(['views/main', 'jquery'], function(main, jquery){
 	console.log('I am config.js');
 });

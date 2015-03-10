@@ -1,4 +1,10 @@
 {
+  "-W099": false,
+  "-W065": false,
+  "-W030": false,
+  "-W004": false,
+  "-W038": false,
+  
   "browser": true,
   "esnext": true,
   "bitwise": true,
