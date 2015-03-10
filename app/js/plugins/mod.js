@@ -5,7 +5,7 @@ define(function(){
 	return {
 
 		init: function(){
-			console.log("I am mod.js!");
+			console.log("mod.js called & $.ajax = " + typeof $.ajax);
 		}
 
 	};

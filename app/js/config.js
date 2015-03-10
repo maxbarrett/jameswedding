@@ -8,6 +8,6 @@ require.config({
 });
 
 
-require(['views/main', 'jquery'], function(main, jquery){
-	console.log('I am config.js');
+require(['jquery', 'views/main'], function(jquery, main){
+	console.log('config.js called & $.ajax = ' + typeof $.ajax);
 });

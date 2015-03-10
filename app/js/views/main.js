@@ -1,8 +1,9 @@
-require(['plugins/mod'], function(mod){
+require(['jquery', 'plugins/mod'], function(jquery, mod){
 	'use strict';
 
-	console.log('I am main.js');
 	mod.init();
+
+	console.log('main.js called & $.ajax = ' + typeof $.ajax);
 
 });
 
