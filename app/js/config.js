@@ -1,5 +1,6 @@
 require.config({
-	baseUrl: './js/',
+
+	include: '../../bower_components/requirejs/require',
 
 	paths: {
 		// jquery: default cdn with local fallback
