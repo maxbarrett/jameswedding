@@ -8,6 +8,7 @@
     generateSourceMaps: true,
     preserveLicenseComments: false, // can't have them with sourcemaps
     useStrict: true, // leave them in
+    include: '../bower_components/requirejs/require',
     paths: {
         jquery: 'empty:' // r.js does not support paths fallbacks
     }
